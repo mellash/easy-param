@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Easy Param",
+  "description": "Easy param is a browser extension that let you replace URL parameters for testing different client and server side vulnerabilities.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.js"],
+      "css": ["src/popup.css"]
+    }
+  ],
+
+  "action": {
+    "default_popup": "src/popup.html"
+  }
+
+}
