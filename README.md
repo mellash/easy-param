@@ -8,13 +8,13 @@ Easy param is a chrome extension that let you easily replace parameter values.
 
 1) First clone this repository and cd to it
 
-```shell
+```
 git clone https://github.com/mellash/easy-param
 cd easy-param
 ```
 2) Then compile the typescript
 
-```shell
+```
 tsc
 ```
 
