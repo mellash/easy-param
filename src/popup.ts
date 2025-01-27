@@ -38,8 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
             let listItem = document.createElement("li");
             //Input element for the parameter name
             let parameterName = document.createElement("span");
+            parameterName.classList.add("easy-param-span");
             //Input element for the parameter value
             let parameterValue = document.createElement("input");
+            //Add class
+            parameterValue.classList.add("easy-param-input")
             parameterName.textContent = parameterNames[i];
             listItem.appendChild(parameterName);
             parameterValue.value = parameterValues[i];
