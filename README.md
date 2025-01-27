@@ -2,7 +2,7 @@
 
 Easy param is a chrome extension that let you easily replace parameter values.
 
-![Screenshot](images/ss.png)
+![Screenshot](README-images/ss.png)
 
 ## How to install easy param?
 
@@ -19,3 +19,7 @@ tsc
 ```
 
 3. Finally add `easy-param` directory to the chrome extension by going to `chrome://extensions/`
+
+## Contribution
+
+Any contribution is appreciated :)
