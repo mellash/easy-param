@@ -1,10 +1,8 @@
-* {
+.easy-param-body {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
 
-.easy-param-body {
   padding: 4px;
   margin: 4px;
   width: 92vw;
