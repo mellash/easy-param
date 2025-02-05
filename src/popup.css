@@ -1,24 +1,83 @@
-.easy-param-body {
+* {
+  box-sizing: border-box;
+  
   list-style-type: none;
+
   padding: 0;
   margin: 0;
-
-  padding: 4px;
-  margin: 4px;
-  width: 92vw;
-  height: 92vh;
 }
 
-.easy-param-title {
-  margin-bottom: 16px;
+html {
+  border: 1px solid #ffffff;
 }
 
-.easy-param-span {
-  display: inline-block;
-  margin-right: 12px;
+body {
+  background-color: #eeeeee;
+
+  width: 300px;
+  height: 500px;
 }
 
-.easy-param-input {
-  width: 60%;
-  padding: 2px;
+.header {
+  background-color: #1c1b22;
+
+  height: 64px;
+}
+
+.header_title {
+  padding-top: 28px;
+  padding-bottom: 16px;
+  padding-left: 28px;
+  font-size: 24px;
+
+  color: #ffffff;
+}
+
+.form {
+  margin-top: 32px;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+.param_name {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #15141a;
+
+  margin-bottom: 8px;
+}
+
+.param_value {
+  width: 100%;
+  height: 32px;
+
+  margin-bottom: 20px;
+
+  padding-left: 12px;
+
+  color: #666565;
+
+  border: none;
+  border-radius: 4px;
+}
+
+.form_button {
+  padding: 6px 32px;
+
+  margin-top: 20px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  background-color: #1c1b22;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 4px;
+}
+
+.form_button:hover {
+  cursor: pointer;
 }
